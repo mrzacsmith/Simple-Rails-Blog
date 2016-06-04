@@ -1,0 +1,1 @@
+### Build this simple blog using the YouTube tutorial of Mackenzie Child series called "Intro to Ruby On Rails" episodes 1 - 6
