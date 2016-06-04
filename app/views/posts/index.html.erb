@@ -1,16 +1,18 @@
-<h1>Zac's Blog</h1>
+<div class="container">
+<h1>Simple First Blog in Rails</h1>
 <br>
 
 
 <% @posts.each do |post| %>
 
-<div>
-    <h2 style="background-color: red;"><%= post.title %></h2>
-</div>
-<div style="background-color: blue; color: white;">
-    <p><%= truncate(post.body, :length => 50 ) %></p>
-    <br>
-    <%= link_to "Read Post", post %>
-</div>
+    <div class="message_title">
+        <h2><%= post.title %></h2>
+    </div>
+    <div class="message_body">
+        <p><%= truncate(post.body, :length => 50 ) %></p>
+        <br>
+        <%= link_to "Read Post", post %>
+    </div>
 
 <% end %>
+</div>    
