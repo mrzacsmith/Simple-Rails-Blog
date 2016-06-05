@@ -16,6 +16,7 @@
 body {
     font-family: monospace;
     background: #a593e0;
+    
 }
 h1 {
     font-size: 40px;
@@ -27,8 +28,15 @@ h1 {
 .message_title {
     background: #e0e3da;
     font-size: 20px;
+    padding: 2px;
 }
 .message_body {
     background: #fffff3;
     font-size: 16px;
+    padding: 2px;
+}
+.show_message_body {
+    background: #fffff3;
+    font-size: 16px;
+    padding: 10px;
 }
